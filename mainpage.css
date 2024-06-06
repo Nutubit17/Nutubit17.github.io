@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile {
+    width: 30%;
+}
+
+.introduction {
+    width: 65%;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.latest-posts, .categories {
+    width: 45%;
+}
+
+.calendar-section {
+    padding: 20px;
+}
+
+.diary-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.diary-list, .diary-search {
+    width: 45%;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar .category {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar .post-titles {
+    display: none;
+    margin-left: 15px;
+}
+
+.sidebar .post-titles li {
+    margin: 5px 0;
+}

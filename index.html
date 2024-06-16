@@ -2,25 +2,143 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Myself</title>
+    <title>노력하는 프로그래머, 구본후</title>
+
+    <style>
+       
+       body
+       {
+            margin: 0;
+            margin-top: 50px;
+            margin-left : 100px;
+            background-color : azure;
+            display: inline-block;
+            
+       }
+
+       h1
+       {
+            font-size: 2em;
+            font-weight: 100;
+            margin-bottom: 50px;
+       }
+
+       #my-profile
+       {
+            max-width: 650px;
+            padding-bottom: 20px;
+            margin-bottom: 50px;
+
+            border-color: gray;
+
+            padding-top:  20px;
+            border-top-style : solid;
+            border-bottom-style: dashed;
+
+            border-top-width: 2px;
+            border-bottom-width: 2px;
+            
+       }
+
+       #study-list
+       {
+            margin-bottom: 70px;
+            
+       }
+
+
+       a
+       {
+            color: black;
+            -webkit-text-stroke: 0.5px;
+            text-decoration-line: underline;
+       }
+      
+
+       
+    </style>
 
 </head>
 <body>
-    <div class="page">
-        <header>
-            <h2> 저를 소개합니다. </h2>
-            <nav>
-                <ul>
-                    <li><a href="#">Food</a></li>
-                    <li><a href="">Hobby</a></li>
-                    <li><a href="">Game</a></li>
-                    <li><a href="">Dream</a></li>
-                </ul>
-            </nav>
-        </header>
+    <div id="title">
+        <h1 style = "color: black;"> 
+            <strong>안녕하세요! 👋</strong> <br>
+            클라이언트 개발을 지망하고 있는 <br>
+            <strong><mark>노력하는 프로그래머</mark>, 구본후</strong> 입니다!
+            
+        </h1>
     </div>
-    <img class="fit-picture" src="image.png" alt="Image is not loaded"/> 
+
+    <div id="my-profile">
+        <table>
+            <tbody>
+                <td>
+                    <img src="Images/머갈통.jpg"
+                         style="width: 150px; height: 200px;">
+                    
+                </td>
+
+                <td style="vertical-align: top; padding-left: 20px;">
+                    <div style="padding-bottom: 10px;">
+                        <strong style="font-size: 20px;">
+                            클라이언트 프로그래머</strong><br>
+                    </div>
+                    <div style="font-size: 18px;">
+                        <strong>이름</strong> : 구본후<br>
+                        <strong>생년월일</strong> : 2007.02.05<br>
+                        <strong>학력</strong> : <a href="https://ggm.gondr.net">경기게임마이스터고등학교</a> 재학중<br>
+                        <strong>이메일</strong> : koobonhoo@gmail.com<br>
+                        <strong>전화번호</strong> : +82 010.9166.9625<br>
+                    </div>
+                </td>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div id="study-list">
+        <h2> 이런 것들을 할 수 있습니다. </h2>
+        <nav>
+            <li> <strong>주로 다루는 프로그래밍 언어&툴</strong> : C#, C++, Unity</li>
+            <li> <strong>짧게 공부한 언어&툴</strong> : HTML&CSS&JS, Blender, Aseprite</li>
+            <li> <strong>공부한 경험이 있는 분야 : </strong>A* 알고리즘, 디자인 패턴, Unity Netcode, Shader Graph</li>
+        </nav>
+    </div>
+
+    <div>
+        <h2> 제 수상 경력들입니다. </h2>
+        <nav>
+            <li> 2023 경기 게임 마이스터고 4기 수석 입학 🏆</li>
+            <li> 1학년 1학기 <strong>수학, 영어, C# 프로그래밍</strong> 성적 우수상 🏆</li>
+            <li> 1학년 2학기 <strong>국어, 수학, 영어</strong> 성적 우수상 🏆</li>
+        </nav>
+        
+        <img src="Images/study-image-2.jpg" alt="Study Image"
+            style="width: 500px; height: 350px;
+            border: 20px; border-radius: 10%;
+            margin-top: 25px;
+            margin-bottom: 100px;"/>
+    </div>
+
+    <div style="margin-bottom: 200px;">
+        <h2> 저와 관련된 링크들입니다. 🔗</h2>
+        <nav>
+            <li><a href="https://ggm.gondr.net/user/profile/228">
+                경기 게임 마이스터고 프로필 링크
+            </a>🪪</li>
+
+            <li><a href="WriteList.html">
+                개발 일지 글 목록 링크
+            </a>✏️</li>
+
+            <li><a href="https://notion.so">
+                Notion 링크
+            </a></li>
+        </nav>
+    </div>
+
     
 </body>
 </html>
